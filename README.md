@@ -92,9 +92,8 @@ movies> db.moviedetails.find({director:"James cameron"})
     ```
 
 **6.List  James Cameron’s movies released in 2009?**
-
 ```
-movies> db.moviedetails.find({ 'release year': '2009'})
+ movies> db.moviedetails.find({ 'release year': '2009'})
 [
   {
     _id: ObjectId("654c860ec8a945eaf77c5bba"),
