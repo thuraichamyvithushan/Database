@@ -89,7 +89,8 @@ movies> db.moviedetails.find({director:"James cameron"})
     title: 'avatar',
     type: 'Science fiction',
     director: 'James cameron',
-    ```
+
+```
 
 **6.List  James Cameron’s movies released in 2009?**
 ```
