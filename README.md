@@ -112,6 +112,7 @@ movies> db.moviedetails.find({ 'release year': '2009'})
 movies> db.moviedetails.remove({"title":"Forrest gump","type":"drama","director":"Robert zemeckies","release year":"1994"})
 DeprecationWarning: Collection.remove() is deprecated. Use deleteOne, deleteMany, findOneAndDelete, or bulkWrite.
 { acknowledged: true, deletedCount: 1 }
+
 ```
 
 **8.Add the movie which is your favourite?**
